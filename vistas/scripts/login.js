@@ -10,11 +10,11 @@ $("#frmAcceso").on('submit',function(e)
     {
         if (data!="null")
         {
-            $(location).attr("href","escritorio.php");            
+            $(location).attr("href../vistas/escritorio.php");            
         }
         else
         {
-            bootbox.alert("Usuario y/o Password incorrectos");
+            bootbox.alert("Usuario y/o Password incorrectos22");
         }
     });
 })
